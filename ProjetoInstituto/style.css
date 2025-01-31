@@ -1,0 +1,31 @@
+/* Custom Styles */
+.hero-section {
+    background-image: url('https://via.placeholder.com/1920x600');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.carousel-item {
+    padding: 20px;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+/* Ajuste das imagens dos membros */
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Altura fixa para as imagens */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+}
